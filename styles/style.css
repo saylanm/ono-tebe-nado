@@ -55,15 +55,11 @@
     line-height: 24.3px;
 }
 
-.address__tel {
+.address__tel__mail {
     text-decoration: none;
     border-bottom: 1px solid #000;
 }
 
-.address__mail {
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-}
 
 .address__text {
     width: 240px;
@@ -205,23 +201,19 @@
     min-width: 430px;
     min-height: 450px;
     padding: 50px 40px;
+    position: relative;
+    z-index: -2;
 }
 
 .card_type_film {
-    position: relative;
-    z-index: -2;
     background: no-repeat center/cover url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-    position: relative;
-    z-index: -2;
     background: no-repeat center/cover url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-    position: relative;
-    z-index: -2;
     background: no-repeat center/cover url(../images/card-lot-03.jpg);
 }
 
